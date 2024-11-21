@@ -44,7 +44,7 @@ footer {
     margin-bottom: 4px;
     .description {
       &::after {
-        content: "@ Copyright By";
+        content: "- 网站构建：苇航 - 数据接口：苇航 - 前端项目：";
         margin: 0 6px;
       }
     }

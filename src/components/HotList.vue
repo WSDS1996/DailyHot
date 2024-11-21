@@ -111,7 +111,7 @@
                 </template>
                 查看更多
               </n-popover>
-              <n-popover>
+              <!-- <n-popover>
                 <template #trigger>
                   <n-button
                     size="tiny"
@@ -126,7 +126,7 @@
                   </n-button>
                 </template>
                 获取最新
-              </n-popover>
+              </n-popover> -->
             </n-space>
           </div>
         </template>
