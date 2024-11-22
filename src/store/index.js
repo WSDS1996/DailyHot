@@ -44,12 +44,12 @@ export const mainStore = defineStore("mainData", {
         //   order: 5,
         //   show: true,
         // },
-        // {
-        //   label: "少数派",
-        //   name: "sspai",
-        //   order: 6,
-        //   show: true,
-        // },
+        {
+          label: "少数派",
+          name: "sspai",
+          order: 6,
+          show: true,
+        },
         // {
         //   label: "IT之家",
         //   name: "ithome",
@@ -62,18 +62,18 @@ export const mainStore = defineStore("mainData", {
         //   order: 8,
         //   show: true,
         // },
-        // {
-        //   label: "今日头条",
-        //   name: "toutiao",
-        //   order: 9,
-        //   show: true,
-        // },
-        // {
-        //   label: "百度贴吧",
-        //   name: "tieba",
-        //   order: 10,
-        //   show: true,
-        // },
+        {
+          label: "今日头条",
+          name: "toutiao",
+          order: 9,
+          show: true,
+        },
+        {
+          label: "百度贴吧",
+          name: "tieba",
+          order: 10,
+          show: true,
+        },
         {
           label: "稀土掘金",
           name: "juejin",
@@ -104,18 +104,18 @@ export const mainStore = defineStore("mainData", {
         //   order: 16,
         //   show: true,
         // },
-        // {
-        //   label: "LOL",
-        //   name: "lol",
-        //   order: 15,
-        //   show: true,
-        // },
-        // {
-        //   label: "网易新闻",
-        //   name: "netease-news",
-        //   order: 17,
-        //   show: true,
-        // },
+        {
+          label: "LOL",
+          name: "lol",
+          order: 15,
+          show: true,
+        },
+        {
+          label: "网易新闻",
+          name: "netease-news",
+          order: 17,
+          show: true,
+        },
         // {
         //   label: "微信读书",
         //   name: "weread",
@@ -134,12 +134,12 @@ export const mainStore = defineStore("mainData", {
         //   order: 20,
         //   show: true,
         // },
-        // {
-        //   label: "HelloGitHub",
-        //   name: "hellogithub",
-        //   order: 21,
-        //   show: true,
-        // },
+        {
+          label: "HelloGitHub",
+          name: "hellogithub",
+          order: 21,
+          show: true,
+        },
         // {
         //   label: "简书",
         //   name: "jianshu",
@@ -156,6 +156,18 @@ export const mainStore = defineStore("mainData", {
           label: "CSDN",
           name: "csdn",
           order: 24,
+          show: true,
+        },
+        {
+          label: "虎扑",
+          name: "hupu",
+          order: 25,
+          show: true,
+        },
+        {
+          label: "新浪新闻",
+          name: "sina",
+          order: 26,
           show: true,
         },
       ],
