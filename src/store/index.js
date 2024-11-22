@@ -56,12 +56,12 @@ export const mainStore = defineStore("mainData", {
         //   order: 7,
         //   show: true,
         // },
-        // {
-        //   label: "澎湃新闻",
-        //   name: "thepaper",
-        //   order: 8,
-        //   show: true,
-        // },
+        {
+          label: "澎湃新闻",
+          name: "thepaper",
+          order: 8,
+          show: true,
+        },
         {
           label: "今日头条",
           name: "toutiao",
