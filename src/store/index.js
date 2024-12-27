@@ -8,42 +8,42 @@ export const mainStore = defineStore("mainData", {
       siteThemeAuto: true,
       // 新闻类别
       defaultNewsArr: [
-        // {
-        //   label: "哔哩哔哩",
-        //   name: "bilibili",
-        //   order: 0,
-        //   show: true,
-        // },
-        // {
-        //   label: "微博",
-        //   name: "weibo",
-        //   order: 1,
-        //   show: true,
-        // },
-        // {
-        //   label: "抖音",
-        //   name: "douyin",
-        //   order: 2,
-        //   show: true,
-        // },
-        // {
-        //   label: "知乎",
-        //   name: "zhihu",
-        //   order: 3,
-        //   show: true,
-        // },
-        // {
-        //   label: "36氪",
-        //   name: "36kr",
-        //   order: 4,
-        //   show: true,
-        // },
-        // {
-        //   label: "百度",
-        //   name: "baidu",
-        //   order: 5,
-        //   show: true,
-        // },
+        {
+          label: "哔哩哔哩",
+          name: "bilibili",
+          order: 0,
+          show: true,
+        },
+        {
+          label: "微博",
+          name: "weibo",
+          order: 1,
+          show: true,
+        },
+        {
+          label: "抖音",
+          name: "douyin",
+          order: 2,
+          show: true,
+        },
+        {
+          label: "知乎",
+          name: "zhihu",
+          order: 3,
+          show: true,
+        },
+        {
+          label: "36氪",
+          name: "36kr",
+          order: 4,
+          show: true,
+        },
+        {
+          label: "百度",
+          name: "baidu",
+          order: 5,
+          show: true,
+        },
         {
           label: "少数派",
           name: "sspai",
@@ -116,12 +116,12 @@ export const mainStore = defineStore("mainData", {
           order: 17,
           show: true,
         },
-        // {
-        //   label: "微信读书",
-        //   name: "weread",
-        //   order: 18,
-        //   show: true,
-        // },
+        {
+          label: "微信读书",
+          name: "weread",
+          order: 18,
+          show: true,
+        },
         // {
         //   label: "豆瓣讨论小组",
         //   name: "douban-group",
